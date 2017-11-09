@@ -1,0 +1,191 @@
+h1 {
+    font-weight: 200;
+}
+
+h1, h2, h3, h4, p strong {
+    -webkit-font-smoothing: antialiased;
+}
+
+.docs-index {
+    ul {
+        @include list-unstyled;
+        margin-bottom : 1rem;
+    }
+
+    h2 {
+        font-size   : $font-size-base;
+        font-weight : bold;
+    }
+}
+
+p code {
+    background    : $color__faint;
+    color         : $color__salmon;
+    padding       : 1px 5px;
+    border-radius : 3px;
+}
+
+code, kbd, pre, samp {
+    font-family : source-code-pro, monospace;
+    font-size   : 14px;
+}
+
+blockquote {
+    background    : $color__salmon;
+    color         : #fff;
+    border-radius : 3px;
+    margin        : 10px 0 20px;
+    padding       : 10px 15px;
+
+    p:last-child {
+        margin : 0;
+    }
+    a {
+        color : #fff;
+    }
+}
+
+.docs article {
+    ul {
+        font-size : 14px;
+    }
+
+    .content-list ul li {
+        margin      : 8px;
+        line-height : 1.65;
+    }
+
+    p {
+        font-size   : 14.5px;
+        line-height : 1.70;
+    }
+
+    h1 + ul {
+        margin                 : 0;
+        padding                : 0;
+        list-style             : none;
+        font-size              : 16px;
+        font-weight            : bold;
+        line-height            : 1.5;
+        padding-bottom         : 50px;
+        border-bottom          : 1px solid $color__faint;
+        -webkit-font-smoothing : antialiased;
+        li {
+            &:before {
+                content      : "# ";
+                margin-right : .25em;
+                color        : $color__salmon;
+                opacity      : .3;
+            }
+            a {
+                text-decoration : none;
+            }
+        }
+    }
+
+    li > ul {
+        font-size   : 15px;
+        font-weight : 400;
+        list-style  : none;
+    }
+
+    h2:first-of-type {
+        margin-top : 15px;
+    }
+
+    h2 {
+        font-size     : 30px;
+        font-weight   : 400;
+        margin-top    : 55px;
+        margin-bottom : 15px;
+        position      : relative;
+
+        a,
+        a:hover {
+            color           : $color__gray;
+            text-decoration : none;
+        }
+        a:before {
+            content     : "#";
+            margin-left : -25px;
+            position    : absolute;
+            font-size   : 28px;
+            color       : $color__salmon;
+            opacity     : .6;
+        }
+    }
+
+    h3 {
+        font-size     : 24px;
+        font-weight   : 400;
+        margin-top    : 45px;
+        margin-bottom : 10px;
+    }
+
+    h4 {
+        font-size     : 16px;
+        font-weight   : 700;
+        margin-top    : 35px;
+        margin-bottom : 10px;
+    }
+
+    a {
+        text-decoration : underline;
+        &:hover {
+            color : darken($color__salmon, 10%);
+        }
+    }
+
+    blockquote a:hover {
+        color : lighten($color__salmon, 25%);
+    }
+
+    table {
+        border-collapse : collapse;
+        width           : 100%;
+        font-size       : 14px;
+        th,
+        td {
+            border     : 1px solid $color__lighter_gray;
+            padding    : 10px;
+            text-align : left;
+        }
+        th {
+            font-size : 16px;
+        }
+    }
+
+    blockquote {
+    }
+}
+
+.docs blockquote.has-icon {
+    position : relative;
+
+    &.video, &.laracast {
+        background : rgba(103, 58, 183, 0.62);
+    }
+
+    &.tip {
+        background : #64b5f6;
+    }
+
+    p {
+        padding-left : 40px;
+    }
+
+    .flag {
+        position : absolute;
+        width    : 30px;
+        left     : 15px;
+        top      : 10px;
+        svg {
+            width  : 24px;
+            height : 24px;
+        }
+    }
+}
+
+.docs .svg svg {
+    width : 24px;
+}
