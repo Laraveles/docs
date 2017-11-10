@@ -87,7 +87,7 @@ class Docs
      */
     protected function sectionPath($section)
     {
-        return base_path("resources/docs/{$this->version}/es/{$section}.md");
+        return storage_path("app/docs/{$this->version}/es/{$section}.md");
     }
 
     /**
