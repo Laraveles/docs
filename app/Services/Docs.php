@@ -141,7 +141,7 @@ class Docs
     public function versions()
     {
         return array_map(
-            'basename', $this->file->directories(base_path('resources/docs'))
+            'basename', $this->file->directories(storage_path('app/docs'))
         );
     }
 }
