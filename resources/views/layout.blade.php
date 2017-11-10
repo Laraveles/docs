@@ -15,12 +15,12 @@
 </head>
 <body class="@yield('body-class', 'docs') language-php">
 
-<div class="container">
+<div class="mmm">
 
-    <div class="bg-danger p-2 text-white rounded">
-        <h4>Traducción</h4>
-        hola
-    </div>
+    {{--<div class="claim rounded">--}}
+        {{--<h4 class="font-weight-bold text-danger">Traducción en progreso</h4>--}}
+        {{--hola--}}
+    {{--</div>--}}
 
     @yield('content')
 </div>
