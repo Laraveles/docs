@@ -16,12 +16,19 @@
                         <img src="https://laraveles.com/wp-content/themes/sage/dist/images/moss.png" style="width: 100px"
                              alt="Logotipo de MOSS"></a>
 
-                    <a href="#" class="btn btn-sm btn-outline-danger">Patrocinar</a>
+                    <a href="mailto:hola@laraveles.com" class="btn btn-sm btn-outline-danger">Patrocinar</a>
                 </div>
 
                 <div class="form-group">
                     <label for="">Versión</label>
                     {!! Form::select('version', $fileVersions, null, ['class' => 'form-control form-control-sm']) !!}
+                </div>
+
+                <div class="status mb-3">
+                    <div class="small">Total traducido: {{ $progress }}%</div>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{ $progress }}%" aria-valuenow="{{ $progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
 
                 <div class="docs-index">
@@ -82,6 +89,14 @@
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
             </div>
+
+            <div class="status mb-3">
+                <div class="small">Traducción del archivo: {{ $status }}%</div>
+                <div class="progress" style="height: 5px;">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{ $status }}%" aria-valuenow="{{ $status }}" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
             <article>
                 {!! $content !!}
             </article>

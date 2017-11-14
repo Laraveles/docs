@@ -1,9 +1,9 @@
 h1 {
-    font-weight: 200;
+    font-weight : 200;
 }
 
 h1, h2, h3, h4, p strong {
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing : antialiased;
 }
 
 .docs-index {
@@ -15,6 +15,17 @@ h1, h2, h3, h4, p strong {
     h2 {
         font-size   : $font-size-base;
         font-weight : bold;
+    }
+
+    a {
+        &:after {
+            position: relative;
+            content    : attr(data-progress);
+            left: 3px;
+            text-align : right;
+            color      : $gray-400;
+            font-size  : $font-size-sm;
+        }
     }
 }
 

@@ -1,6 +1,5 @@
 <?php
 
-
 $router->get('/', function () {
     return redirect()->route('docs');
 });

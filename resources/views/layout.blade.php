@@ -12,6 +12,10 @@
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Source+Sans+Pro:200,400,700,600,400italic,700italic'
           rel='stylesheet' type='text/css'>
+
+    <script>
+        var progress = @json(Cache::get('translation-status'))
+    </script>
 </head>
 <body class="@yield('body-class', 'docs') language-php">
 

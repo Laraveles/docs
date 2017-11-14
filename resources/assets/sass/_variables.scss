@@ -56,7 +56,7 @@ $red:     $color__salmon !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
-$teal:    #20c997 !default;
+$teal:    #27b4a8 !default;
 $cyan:    #17a2b8 !default;
 
 $colors: () !default;
@@ -78,7 +78,7 @@ $colors: map-merge((
 
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
-$success:       $green !default;
+$success:       $teal !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
