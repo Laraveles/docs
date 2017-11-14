@@ -3,6 +3,10 @@
     padding : 1rem;
 }
 
+body {
+    padding-top : 65px;
+}
+
 #main {
     position   : relative;
     z-index    : 1;
@@ -18,22 +22,46 @@
     }
 }
 
+#header {
+    padding        : .5rem 60px;
+    position       : fixed;
+    width          : 100%;
+    top            : 0;
+    box-shadow     : 0 0 1px rgba(0, 0, 0, 0.25);
+    transition     : background-color 0.3s ease-in-out;
+    background     : #fff;
+    z-index        : 1000;
+
+    svg {
+        //margin-right : auto;
+        //margin-left  : auto;
+        display : block;
+        width   : 140px;
+    }
+    path {
+        stroke : #fff !important;
+    }
+    text {
+        fill : #fff !important;
+    }
+}
+
 #ad {
-    width: 125px;
-    position: fixed;
-    z-index: 99;
-    bottom: 10px;
-    right: 10px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 3px;
-    font-size: 13px;
+    float   : right;
+    width   : 180px;
+    z-index : 99;
+
+    @media screen and (min-width : 1100px) {
+        bottom   : 10px;
+        right    : 10px;
+        position : fixed;
+    }
 }
 
 .sidebar {
     position   : absolute;
     z-index    : 10;
-    top        : 0;
+    top        : 65px;
     left       : 0;
     bottom     : 0;
     overflow-x : hidden;
@@ -47,14 +75,14 @@
 .content {
     position     : relative;
     padding      : 2.2em 0;
-    max-width    : 600px;
+    max-width    : 650px;
     margin       : 0 auto;
     padding-left : 50px;
 }
 
 @media screen and (max-width : 1300px) {
     .content {
-        margin-left : 290px;
+        margin-left : 180px;
     }
 }
 

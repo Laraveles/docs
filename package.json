@@ -19,6 +19,7 @@
         "vue": "^2.5.*"
     },
     "dependencies": {
+        "popper.js": "^1.12.8",
         "prismjs": "^1.8.4"
     }
 }

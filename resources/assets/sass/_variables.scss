@@ -246,11 +246,11 @@ $font-weight-bold:            700 !default;
 $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
 
-$h1-font-size:                48px; // $font-size-base * 2.5 !default;
-$h2-font-size:                30px; // $font-size-base * 2 !default;
-$h3-font-size:                24px;
-$h4-font-size:                20px;
-$h5-font-size:                18px;
+$h1-font-size:                36px; // $font-size-base * 2.5 !default;
+$h2-font-size:                30px; //1.5em; // 34px; // $font-size-base * 2 !default;
+$h3-font-size:                24px; //1.35em;
+$h4-font-size:                16px;
+$h5-font-size:                16px;
 $h6-font-size:                $font-size-base !default;
 
 $headings-margin-bottom:      ($spacer / 2) !default;

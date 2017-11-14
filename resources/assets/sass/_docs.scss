@@ -46,25 +46,20 @@ blockquote {
 }
 
 .docs article {
-    ul {
-        font-size : 14px;
-    }
+    //ul {
+    //    font-size : 14px;
+    //}
 
     .content-list ul li {
         margin      : 8px;
         line-height : 1.65;
     }
 
-    p {
-        font-size   : 14.5px;
-        line-height : 1.70;
-    }
-
     h1 + ul {
         margin                 : 0;
         padding                : 0;
         list-style             : none;
-        font-size              : 16px;
+        //font-size              : 16px;
         font-weight            : bold;
         line-height            : 1.5;
         padding-bottom         : 50px;
@@ -84,7 +79,7 @@ blockquote {
     }
 
     li > ul {
-        font-size   : 15px;
+        //font-size   : 15px;
         font-weight : 400;
         list-style  : none;
     }
@@ -94,7 +89,7 @@ blockquote {
     }
 
     h2 {
-        font-size     : 30px;
+        //font-size     : 30px;
         font-weight   : 400;
         margin-top    : 55px;
         margin-bottom : 15px;
@@ -116,14 +111,14 @@ blockquote {
     }
 
     h3 {
-        font-size     : 24px;
+        //font-size     : 24px;
         font-weight   : 400;
         margin-top    : 45px;
         margin-bottom : 10px;
     }
 
     h4 {
-        font-size     : 16px;
+        //font-size     : 16px;
         font-weight   : 700;
         margin-top    : 35px;
         margin-bottom : 10px;
@@ -143,15 +138,12 @@ blockquote {
     table {
         border-collapse : collapse;
         width           : 100%;
-        font-size       : 14px;
+        //font-size       : 14px;
         th,
         td {
             border     : 1px solid $color__lighter_gray;
             padding    : 10px;
             text-align : left;
-        }
-        th {
-            font-size : 16px;
         }
     }
 
