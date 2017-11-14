@@ -12,9 +12,6 @@
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Source+Sans+Pro:200,400,700,600,400italic,700italic'
           rel='stylesheet' type='text/css'>
-    <script type="text/javascript"> var infolinks_pid = 3049826;
-        var infolinks_wsid = 0; </script>
-    <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 </head>
 <body class="@yield('body-class', 'docs') language-php">
 
