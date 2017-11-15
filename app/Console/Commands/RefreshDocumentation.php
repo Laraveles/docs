@@ -39,18 +39,6 @@ class RefreshDocumentation extends Command
      */
     public function handle()
     {
-        $path = storage_path('app/temp');
-        $docs = storage_path('app/docs');
-
-        foreach ($this->versions as $version) {
-            exec("rm -rf {$path}");
-            exec("git clone https://github.com/laraveles/laravel-docs --branch 5.5 {$path}");
-            // Remove any previous existing content for the current version.
-            exec("rm -rf {$docs}/{$version}");
-            // Move the new version content to the docs folder.
-            rename("{$path}/es", storage_path("app/docs/{$version}"));
-        }
-
-        exec("rm -rf {$path}");
+        exec('cd ' . storage_path('app/docs') . '; git pull');
     }
 }
