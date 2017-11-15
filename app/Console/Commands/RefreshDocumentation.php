@@ -39,6 +39,8 @@ class RefreshDocumentation extends Command
      */
     public function handle()
     {
-        exec('cd ' . storage_path('app/docs') . '; git pull');
+        foreach ($this->versions as $version) {
+            exec('cd ' . storage_path("app/docs/{$version}") . '; git pull');
+        }
     }
 }
