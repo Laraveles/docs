@@ -42,10 +42,10 @@
                 <h4 class="text-danger font-weight-bold">¡Colabora!</h4>
                 <p class="small mb-1">En Laraveles estamos trabajando duro traduciendo la documentación completa de Laravel. No es una tarea
                     sencilla y es un camino largo. Buscamos colaboradores comprometidos para finalizar el proceso y ayudar a mantenerlo.</p>
-                <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#collaborate">
                     ¡Sí, quiero colaborar!
                 </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                <div class="modal fade" id="collaborate" tabindex="-1" role="dialog" aria-labelledby="collaborateLabel"
                      aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">

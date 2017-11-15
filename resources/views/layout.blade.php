@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laraveles</title>
+    <title>Laraveles – Documentación de Laravel en español</title>
 
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
 
@@ -16,14 +16,26 @@
     <script>
         var progress = @json(Cache::get('translation-status'))
     </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42404242-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-42404242-1');
+    </script>
+
 </head>
 <body class="@yield('body-class', 'docs') language-php">
 
 <div id="header" class="text-center bg-danger">
-    <a href="/" class="logo">
-        <svg width="100%" height="100%" viewBox="0 0 3195 953" version="1.1" xmlns="http://www.w3.org/2000/svg"
-             xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-             style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <div class="d-flex align-items-center">
+        <a href="/" class="logo">
+            <svg width="100%" height="100%" viewBox="0 0 3195 953" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                 style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
             <g transform="matrix(1,0,0,1,-354.309,-787.763)">
                 <g id="Logo-1" transform="matrix(1,0,0,1,115.809,597.388)">
                     <g transform="matrix(0.961414,0,0,0.712204,-76.1521,-399.399)">
@@ -41,10 +53,16 @@
                 </g>
             </g>
         </svg>
-    </a>
+        </a>
+
+        <div class="ml-auto">
+            <span class="small text-white mr-2">Traducción en curso</span>
+            <button type="button" class="btn btn-light btn-sm" data-toggle="modal" data-target="#collaborate">¡Participa!</button>
+        </div>
+    </div>
 </div>
 
-<div class="mmm">
+<div class="wrapper">
 
     {{--<div class="claim rounded">--}}
     {{--<h4 class="font-weight-bold text-danger">Traducción en progreso</h4>--}}
