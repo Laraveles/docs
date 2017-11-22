@@ -24,11 +24,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('translation-status:refresh')
-                 ->twiceDaily();
+        $schedule->command('docs:status')
+                 ->hourly();
 
         $schedule->command('docs:refresh')
-                 ->twiceDaily();
+                 ->hourly();
     }
 
     /**

@@ -13,7 +13,7 @@ class RefreshTranslationStatus extends Command
      *
      * @var string
      */
-    protected $signature = 'translation-status:refresh';
+    protected $signature = 'docs:status';
 
     /**
      * The console command description.
