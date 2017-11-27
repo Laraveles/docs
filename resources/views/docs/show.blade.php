@@ -61,7 +61,7 @@
                                 <h4 class="font-weight-bold">3. Disponibilidad flexible</h4>
                                 <p>El proyecto es completamente flexible. Los usuarios realizan las aportaciones que pueden/quieren cuando
                                     pueden/quieren.</p>
-                                <h3 class="font-weight-bold">Lo tengo claro, ¡quiero colarborar!</h3>
+                                <h3 class="font-weight-bold">Lo tengo claro, ¡quiero colaborar!</h3>
                                 <p>¡Estupendo! Desde nuestro Slack, dirígete a <span class="text-muted">IsraelOrtuno</span>, <span
                                             class="text-muted">Sojeda</span>, <span class="text-muted">Moesis</span> o <span
                                             class="text-muted">Infogon</span>. Cualquiera de ellos se hará cargo de tu petición y te
