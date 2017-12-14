@@ -7,6 +7,17 @@
 
         <div class="sidebar">
             <div class="sidebar-inner">
+                <div class="small text-muted">Ayuda a mantener Laraveles</div>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Documentacion - Flotante -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:180px;height:150px"
+                     data-ad-client="ca-pub-9354128423670021"
+                     data-ad-slot="1657933006"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+
                 <div class="sponsors mb-3">
                     <div class="text-muted small mb-1">Patrocinadores</div>
                     <a class="mb-2 d-block" href="https://sys4net.com/?ref=F8397167&utm_source=laraveles&utm_medium=docs&utm_content=sponsorship" target="_blank">
@@ -77,18 +88,18 @@
                     </div>
                 </div>
             </div>
-            <div id="ad">
-                <div class="small text-muted">Ayuda a mantener Laraveles</div>
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- Documentacion - Flotante -->
-                <ins class="adsbygoogle"
-                     style="display:inline-block;width:180px;height:150px"
-                     data-ad-client="ca-pub-9354128423670021"
-                     data-ad-slot="1657933006"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
+            {{--<div id="ad">--}}
+                {{--<div class="small text-muted">Ayuda a mantener Laraveles</div>--}}
+                {{--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
+                {{--<!-- Documentacion - Flotante -->--}}
+                {{--<ins class="adsbygoogle"--}}
+                     {{--style="display:inline-block;width:180px;height:150px"--}}
+                     {{--data-ad-client="ca-pub-9354128423670021"--}}
+                     {{--data-ad-slot="1657933006"></ins>--}}
+                {{--<script>--}}
+                    {{--(adsbygoogle = window.adsbygoogle || []).push({});--}}
+                {{--</script>--}}
+            {{--</div>--}}
 
             <div class="status mb-3">
                 <div class="small">Traducción del archivo: {{ $status }}%</div>
