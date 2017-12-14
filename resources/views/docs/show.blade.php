@@ -7,6 +7,13 @@
 
         <div class="sidebar">
             <div class="sidebar-inner">
+                <!-- /21673218621/doc-footer -->
+                <div id='div-gpt-ad-1513269504524-0' style='height:150px; width:180px;'>
+                    <script>
+                        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513269504524-0'); });
+                    </script>
+                </div>
+
                 <div class="sponsors mb-3">
                     <div class="text-muted small mb-1">Patrocinadores</div>
                     <a class="mb-2 d-block" href="https://sys4net.com/?ref=F8397167&utm_source=laraveles&utm_medium=docs&utm_content=sponsorship" target="_blank">
