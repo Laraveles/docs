@@ -7,25 +7,12 @@
 
         <div class="sidebar">
             <div class="sidebar-inner">
-                <!-- /21673218621/doc-footer -->
-                <div class="small text-muted">Ayuda a mantener Laraveles</div>
-                <div id='div-gpt-ad-1513269504524-0' style='height:150px; width:180px;'>
-                    <script>
-                        googletag.cmd.push(function () {
-                            googletag.display('div-gpt-ad-1513269504524-0');
-                        });
-                    </script>
-                </div>
-
                 <div class="sponsors mb-3">
                     <div class="text-muted small mb-1">Patrocinadores</div>
-                    <a class="mb-2 d-block"
-                       href="https://sys4net.com/?ref=F8397167&utm_source=laraveles&utm_medium=docs&utm_content=sponsorship"
-                       target="_blank">
+                    <a class="mb-2 d-block" href="https://sys4net.com/?ref=F8397167&utm_source=laraveles&utm_medium=docs&utm_content=sponsorship" target="_blank">
                         <img src="https://laraveles.com/wp-content/themes/sage/dist/images/hosting-sys4net.svg" style="width: 100px"
                              alt="Logotipo de SYS4NET"> </a>
-                    <a class="d-block mb-2" href="https://moss.sh/es/?utm_source=laraveles&utm_medium=docs&utm_content=sponsorship"
-                       target="_blank">
+                    <a class="d-block mb-2" href="https://moss.sh/es/?utm_source=laraveles&utm_medium=docs&utm_content=sponsorship" target="_blank">
                         <img src="https://laraveles.com/wp-content/themes/sage/dist/images/moss.png" style="width: 100px"
                              alt="Logotipo de MOSS"></a>
 
@@ -40,8 +27,7 @@
                 <div class="status mb-3">
                     <div class="small">Total traducido: {{ $progress }}%</div>
                     <div class="progress" style="height: 5px;">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{ $progress }}%"
-                             aria-valuenow="{{ $progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{ $progress }}%" aria-valuenow="{{ $progress }}" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
 
@@ -91,24 +77,23 @@
                     </div>
                 </div>
             </div>
-            {{--<div id="ad">--}}
-            {{--<div class="small text-muted">Ayuda a mantener Laraveles</div>--}}
-            {{--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
-            {{--<!-- Documentacion - Flotante -->--}}
-            {{--<ins class="adsbygoogle"--}}
-            {{--style="display:inline-block;width:180px;height:150px"--}}
-            {{--data-ad-client="ca-pub-9354128423670021"--}}
-            {{--data-ad-slot="1657933006"></ins>--}}
-            {{--<script>--}}
-            {{--(adsbygoogle = window.adsbygoogle || []).push({});--}}
-            {{--</script>--}}
-            {{--</div>--}}
+            <div id="ad">
+                <div class="small text-muted">Ayuda a mantener Laraveles</div>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Documentacion - Flotante -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:180px;height:150px"
+                     data-ad-client="ca-pub-9354128423670021"
+                     data-ad-slot="1657933006"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
 
             <div class="status mb-3">
                 <div class="small">Traducción del archivo: {{ $status }}%</div>
                 <div class="progress" style="height: 5px;">
-                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{ $status }}%"
-                         aria-valuenow="{{ $status }}" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{ $status }}%" aria-valuenow="{{ $status }}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
 

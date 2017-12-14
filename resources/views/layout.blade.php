@@ -18,23 +18,7 @@
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    {{--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42404242-1"></script>--}}
-
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-    <script>
-        var googletag = googletag || {};
-        googletag.cmd = googletag.cmd || [];
-    </script>
-
-    <script>
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/21673218621/doc-footer', [180, 150], 'div-gpt-ad-1513269504524-0').addService(googletag.pubads());
-            googletag.pubads().enableSingleRequest();
-            googletag.pubads().collapseEmptyDivs();
-            googletag.enableServices();
-        });
-    </script>
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42404242-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
